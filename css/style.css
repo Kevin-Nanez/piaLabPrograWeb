@@ -1,0 +1,158 @@
+:root{
+--negro : #000;
+--grisdiv: #808285;
+--grispuesto: #535658;
+}
+
+
+
+
+
+  /* contenido index */
+  h1{
+    font-size: 1rem;
+    color: var(--negro);
+    margin: 0;
+  }
+
+  h3{
+    font-size: .9rem;
+  }
+  @media(min-width: 480px) and (max-width: 767px) { 
+    h3{
+      font-size: 1.1rem;
+    }  
+  }
+  @media(min-width: 768px) { 
+    h3{
+      font-size: 1.4rem;
+    }
+  }
+
+  .puesto{
+    font-size: .9rem;
+    color: var(--grispuesto);
+    margin-bottom: 0;
+  }
+
+  .parrafo{
+    font-size:.9rem ;
+    text-align: justify;
+  }
+
+  @media(min-width: 480px) and (max-width: 767px) { 
+      h1{
+        font-size: 1.5rem;
+      }
+      .puesto{
+        font-size: .9rem;
+      }
+      .parrafo{
+        font-size: 1rem;
+      }
+  }
+
+  @media(min-width: 768px) { 
+     h1{
+      font-size: 2rem;
+     }
+     .puesto{
+      font-size: 1.4rem;
+    }
+    .parrafo{
+      font-size: 1.2rem;
+    } 
+  }
+
+  .content{
+    background: rgb(139,142,145);
+    background: radial-gradient(circle, rgba(139,142,145,1) 21%, rgba(157,161,167,1) 96%);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem ;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: 2px solid var(--negro);
+  }
+
+  /* tabla */
+
+  .tabla {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .encabezado {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--negro);
+    color: #fff;
+  }
+  
+  .contenido {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid var(--negro);
+  }
+
+  .contenido div {
+    box-sizing: border-box;
+    height: 100%;
+  }
+
+  .fila-1 {
+    width: 100%;
+  }
+  
+  .fila-1 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 480px) {
+    .fila-1 {
+      width: 20%;
+    }
+  
+    .fila-2 {
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .fila-3 {
+      width: 50%;
+      text-align: justify;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .fila-1,
+    .fila-2,
+    .fila-3 {
+      width: 100%;
+    }
+  
+    .fila-2,
+    .fila-3 {
+      padding: 1rem;
+    }
+  }
+  
+  
+
+
+  
