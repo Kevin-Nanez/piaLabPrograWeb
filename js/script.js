@@ -1,8 +1,4 @@
 
-
-
-
-
                         // Modal
 var openModalButton = document.getElementById("openModal");
 
