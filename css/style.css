@@ -7,9 +7,6 @@
 }
 
 
-
-
-
 /* contenido index */
 h1 {
   font-size: 1rem;
@@ -144,6 +141,7 @@ h3 {
   padding: 1rem;
   background-color: var(--negro);
   color: #fff;
+  margin-bottom: .5rem;
 }
 
 .contenido {
@@ -271,7 +269,6 @@ h3 {
   background-color: var(--negro);
   border-color: var(--grispuesto);
 }
-
 
 /* cursos */
 
